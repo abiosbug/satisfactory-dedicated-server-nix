@@ -40,4 +40,4 @@
       -p 15000:15000/udp -p 15777:15777/udp wolveix/satisfactory-server:latest
     '';
   };
-};
+}
