@@ -38,7 +38,6 @@
       -h satisfactory-server -e MAXPLAYERS=10 -e PGID=100 -e STEAMBETA=false \
       -v /home/satisfactory/SatisfactoryDedicatedServer:/config -p 7777:7777/udp \
       -p 15000:15000/udp -p 15777:15777/udp wolveix/satisfactory-server:latest
-
-    ''
+    '';
   };
 };
